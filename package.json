@@ -1,16 +1,20 @@
 {
   "name": "pokedom-ts",
+  "author": "Jess-Adis",
+  "homepage": "https://JMADis.github.io/pokedom-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "sass": "^1.64.2",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "sass": "^1.64.2"
+    "vite": "^4.4.5"
   }
 }
